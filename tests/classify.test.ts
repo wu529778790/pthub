@@ -75,6 +75,31 @@ describe('classifySignupPage', () => {
     expect(classifySignupPage({ httpStatus: 200, body })).toBe('open')
   })
 
+  it('识别 NexusPHP 繁体版的邀请制提示语', () => {
+    // 台港站点常见文案，只收简体关键词会漏判成未知
+    const body = `
+      <div>對不起 自由註冊當前關閉，只允許邀請註冊。
+      如果你想加入，請找到能夠邀請你進入本站的朋友</div>`
+
+    expect(classifySignupPage({ httpStatus: 200, body })).toBe('invite')
+  })
+
+  it('繁体「邀請碼」也能识别为邀请制', () => {
+    expect(classifySignupPage({ httpStatus: 200, body: '本站需要邀請碼才能註冊' })).toBe('invite')
+  })
+
+  it('识别繁体版的关闭注册文案', () => {
+    expect(classifySignupPage({ httpStatus: 200, body: '本站已關閉註冊，請勿再嘗試' })).toBe(
+      'closed',
+    )
+  })
+
+  it('识别英文的未开放自由注册提示语', () => {
+    expect(
+      classifySignupPage({ httpStatus: 200, body: 'SIGNUP Free registration not engaged.' }),
+    ).toBe('invite')
+  })
+
   it('404 判定为已关闭', () => {
     expect(classifySignupPage({ httpStatus: 404, body: 'Not Found' })).toBe('closed')
   })

@@ -1,5 +1,113 @@
 [
   {
+    "name": "学校",
+    "domain": "pt.btschool.club",
+    "engine": "nexusphp",
+    "registerUrl": "https://pt.btschool.club/signup.php"
+  },
+  {
+    "name": "PT时间",
+    "domain": "www.pttime.org",
+    "engine": "nexusphp",
+    "registerUrl": "https://www.pttime.org/signup.php"
+  },
+  {
+    "name": "PTzone",
+    "domain": "ptzone.xyz",
+    "engine": "nexusphp",
+    "registerUrl": "https://ptzone.xyz/signup.php"
+  },
+  {
+    "name": "车站",
+    "domain": "carpt.net",
+    "engine": "nexusphp",
+    "registerUrl": "https://carpt.net/signup.php"
+  },
+  {
+    "name": "拾刻",
+    "domain": "www.ptskit.org",
+    "engine": "nexusphp",
+    "registerUrl": "https://www.ptskit.org/signup.php"
+  },
+  {
+    "name": "52PT",
+    "domain": "52pt.site",
+    "engine": "nexusphp",
+    "registerUrl": "https://52pt.site/signup.php"
+  },
+  {
+    "name": "樱花",
+    "domain": "pt.ying.us.kg",
+    "engine": "nexusphp",
+    "registerUrl": "https://pt.ying.us.kg/signup.php"
+  },
+  {
+    "name": "慕雪阁",
+    "domain": "pt.muxuege.org",
+    "engine": "nexusphp",
+    "registerUrl": "https://pt.muxuege.org/signup.php"
+  },
+  {
+    "name": "好学",
+    "domain": "www.hxpt.org",
+    "engine": "nexusphp",
+    "registerUrl": "https://www.hxpt.org/signup.php"
+  },
+  {
+    "name": "PTFans",
+    "domain": "ptfans.cc",
+    "engine": "nexusphp",
+    "registerUrl": "https://ptfans.cc/signup.php"
+  },
+  {
+    "name": "天空",
+    "domain": "hdsky.me",
+    "engine": "nexusphp",
+    "registerUrl": "https://hdsky.me/signup.php"
+  },
+  {
+    "name": "彩虹岛",
+    "domain": "chdbits.co",
+    "engine": "nexusphp",
+    "registerUrl": "https://chdbits.co/signup.php"
+  },
+  {
+    "name": "红豆饭",
+    "domain": "hdfans.org",
+    "engine": "nexusphp",
+    "registerUrl": "https://hdfans.org/signup.php"
+  },
+  {
+    "name": "烧包",
+    "domain": "ptsbao.club",
+    "engine": "nexusphp",
+    "registerUrl": "https://ptsbao.club/signup.php"
+  },
+  {
+    "name": "皇后",
+    "domain": "open.cd",
+    "engine": "nexusphp",
+    "registerUrl": "https://open.cd/signup.php"
+  },
+  {
+    "name": "高清时间",
+    "domain": "hdtime.org",
+    "engine": "nexusphp",
+    "registerUrl": "https://hdtime.org/signup.php"
+  },
+  {
+    "name": "老师",
+    "domain": "nicept.net",
+    "engine": "nexusphp",
+    "registerUrl": "https://nicept.net/signup.php"
+  },
+  {
+    "name": "城市",
+    "domain": "hdcity.leniter.org",
+    "engine": "nexusphp",
+    "registerUrl": "https://hdcity.leniter.org/signup.php"
+  },
+  {
     "name": "修道院",
     "domain": "xdypt.vip",
     "engine": "nexusphp",

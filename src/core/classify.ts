@@ -8,32 +8,57 @@ export interface SignupProbe {
   body: string
 }
 
-/** 明确表示注册入口已关闭的文案 */
+/**
+ * 明确表示注册入口已关闭的文案。
+ *
+ * 繁简体都要收：NexusPHP 站点里有相当一部分（尤其台港站）界面是繁体，
+ * 只匹配简体会让这些站在页面上显示成「未知」。
+ */
 const CLOSED_HINTS = [
   '注册已关闭',
+  '註冊已關閉',
   '关闭注册',
-  '暫停註冊',
+  '關閉註冊',
   '暂停注册',
+  '暫停註冊',
   '停止注册',
+  '停止註冊',
   '不允许注册',
+  '不允許註冊',
   'registration is closed',
   'registration closed',
+  'registration is disabled',
+  'registration disabled',
   'signups are closed',
   'signup closed',
   'sign-up closed',
 ]
 
-/** 表示必须凭邀请才能注册的文案 */
+/**
+ * 表示必须凭邀请才能注册的文案。
+ *
+ * 需要覆盖 NexusPHP 关闭自由注册后的标准提示语：
+ * 「自由註冊當前關閉，只允許邀請註冊」及其英文版本。
+ * 注意不要把「關閉註冊」这类词塞进来，否则会先命中关闭分支。
+ */
 const INVITE_HINTS = [
   '邀请注册',
+  '邀請註冊',
   '邀请码',
+  '邀請碼',
   '需要邀请',
+  '需要邀請',
   '仅限邀请',
+  '僅限邀請',
+  '只允许邀请',
+  '只允許邀請',
   'invite only',
   'invitation only',
   'invitation code',
   'invite code',
   'by invitation',
+  // HDCiTY 一类的英文提示语
+  'registration not engaged',
 ]
 
 /**
