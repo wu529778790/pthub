@@ -1,4 +1,4 @@
-# 开放注册 PT 站点
+# PTHub
 
 收录当前开放注册的 PT 站点，由 GitHub Actions 每日自动探测注册入口状态并发布到 GitHub Pages。
 
