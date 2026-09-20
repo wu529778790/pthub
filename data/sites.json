@@ -1,0 +1,38 @@
+[
+  {
+    "name": "修道院",
+    "domain": "xdypt.vip",
+    "engine": "nexusphp",
+    "registerUrl": "https://xdypt.vip/signup.php"
+  },
+  {
+    "name": "LP-Bits.com 2.0",
+    "domain": "lp-bits.com",
+    "engine": "nexusphp",
+    "registerUrl": "https://lp-bits.com/signup.php"
+  },
+  {
+    "name": "itz",
+    "domain": "pt.itzmx.com",
+    "engine": "nexusphp",
+    "registerUrl": "https://pt.itzmx.com/signup.php"
+  },
+  {
+    "name": "星湾",
+    "domain": "xingwan.cc",
+    "engine": "nexusphp",
+    "registerUrl": "https://xingwan.cc/signup.php"
+  },
+  {
+    "name": "红豆包",
+    "domain": "hdbao.cc",
+    "engine": "nexusphp",
+    "registerUrl": "https://hdbao.cc/signup.php"
+  },
+  {
+    "name": "RailgunPT",
+    "domain": "bilibili.download",
+    "engine": "nexusphp",
+    "registerUrl": "https://bilibili.download/signup.php"
+  }
+]

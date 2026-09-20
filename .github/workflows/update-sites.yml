@@ -1,0 +1,44 @@
+name: 每日更新站点状态
+
+on:
+  schedule:
+    # UTC 23:30 == 北京时间 07:30
+    - cron: '30 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-sites
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 探测站点注册状态
+        run: npm run update:sites
+
+      - name: 提交状态文件
+        run: |
+          if git diff --quiet -- data/status.json; then
+            echo "状态无变化，跳过提交"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/status.json
+          git commit -m "chore(data): 更新站点状态 $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')"
+          git push

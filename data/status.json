@@ -1,0 +1,41 @@
+{
+  "updatedAt": "2026-09-20T15:57:59.675Z",
+  "sites": {
+    "xdypt.vip": {
+      "status": "open",
+      "checkedAt": "2026-09-20T15:57:59.675Z",
+      "httpStatus": 200,
+      "failures": 0
+    },
+    "lp-bits.com": {
+      "status": "open",
+      "checkedAt": "2026-09-20T15:57:59.675Z",
+      "httpStatus": 200,
+      "failures": 0
+    },
+    "pt.itzmx.com": {
+      "status": "open",
+      "checkedAt": "2026-09-20T15:57:59.675Z",
+      "httpStatus": 200,
+      "failures": 0
+    },
+    "xingwan.cc": {
+      "status": "open",
+      "checkedAt": "2026-09-20T15:57:59.675Z",
+      "httpStatus": 200,
+      "failures": 0
+    },
+    "hdbao.cc": {
+      "status": "open",
+      "checkedAt": "2026-09-20T15:57:59.675Z",
+      "httpStatus": 200,
+      "failures": 0
+    },
+    "bilibili.download": {
+      "status": "open",
+      "checkedAt": "2026-09-20T15:57:59.675Z",
+      "httpStatus": 200,
+      "failures": 0
+    }
+  }
+}
