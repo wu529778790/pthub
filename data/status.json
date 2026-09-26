@@ -1,39 +1,39 @@
 {
-  "updatedAt": "2026-09-25T01:41:01.153Z",
+  "updatedAt": "2026-09-26T01:45:59.905Z",
   "sites": {
     "pt.btschool.club": {
       "status": "invite",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "www.pttime.org": {
       "status": "unknown",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 403,
       "failures": 0
     },
     "ptzone.xyz": {
       "status": "invite",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "carpt.net": {
       "status": "open",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "www.ptskit.org": {
       "status": "invite",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "52pt.site": {
       "status": "invite",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
@@ -41,108 +41,108 @@
       "status": "invite",
       "checkedAt": "2026-09-24T01:33:44.227Z",
       "httpStatus": 521,
-      "failures": 1,
+      "failures": 2,
       "error": "服务端返回 HTTP 521"
     },
     "pt.muxuege.org": {
       "status": "invite",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "www.hxpt.org": {
       "status": "invite",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "ptfans.cc": {
       "status": "invite",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "hdsky.me": {
       "status": "invite",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "chdbits.co": {
       "status": "invite",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "hdfans.org": {
       "status": "invite",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "ptsbao.club": {
       "status": "unknown",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "open.cd": {
       "status": "invite",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "hdtime.org": {
       "status": "unknown",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 403,
       "failures": 0
     },
     "nicept.net": {
       "status": "invite",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "hdcity.leniter.org": {
       "status": "invite",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "xdypt.vip": {
       "status": "open",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "lp-bits.com": {
       "status": "open",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "pt.itzmx.com": {
       "status": "open",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "xingwan.cc": {
       "status": "open",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     },
     "hdbao.cc": {
       "status": "unknown",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 403,
       "failures": 0
     },
     "bilibili.download": {
       "status": "open",
-      "checkedAt": "2026-09-25T01:41:01.153Z",
+      "checkedAt": "2026-09-26T01:45:59.905Z",
       "httpStatus": 200,
       "failures": 0
     }
